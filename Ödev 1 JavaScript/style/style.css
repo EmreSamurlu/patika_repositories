@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Montague';
+    src: url('./fonts/Montague/Montague.ttf');
+}
+@font-face {
+    font-family: 'akaPosse';
+    src: url('./fonts/akaPosse.ttf');
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #305050;
+    display: flex;
+    flex-direction: column;
+}
+#big {
+    margin: 10px auto;
+    color: #9C613E;
+    font-family: 'Montague';
+    font-size: 5em;
+    font-weight: 300;
+
+}
+
+#greeting{
+    margin: 10px auto;
+    font-size: 2em;
+    color: #9C9056;
+}
+
+#clock {
+    margin: 10px auto;
+    font-size: 2.5em;
+    font-weight: 600;
+    font-family: 'akaPosse';
+}
+
+#sentence {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: 400;
+    font-family: 'akaPosse';
+    color: #582e4f;
+}
